@@ -37,14 +37,7 @@ input{
   cursor: pointer;
 }
 
-.todo{
-  position: relative;
-  margin-top: 1rem;
-  background-color: #20c9e7;
-  color: #fff;
-  padding: 1.5rem 3rem;
-  border-radius: 5px;
-}
+
 
 .icons{
   position: absolute;
@@ -58,4 +51,31 @@ input{
 .icon{
   cursor: pointer;
   font-size: 20px;
+  color: #031a44;
 }
+
+.completed{
+    text-decoration: line-through;
+}
+
+
+
+.todo{
+  position: relative;
+  margin-top: 1rem;
+  background-color: #11c2ee;
+  color: #fff;
+  padding: 1.5rem 3rem;
+  border-radius: 5px;
+}
+
+.text{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #031a44;
+}
+
+
+
+
